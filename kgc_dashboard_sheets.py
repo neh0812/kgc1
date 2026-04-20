@@ -35,8 +35,8 @@ def load_sheet(sheet_name):
 
 # 데이터 불러오기
 df_kpi     = load_sheet("KPI")
-df_channel = load_sheet("채널")
-df_age     = load_sheet("연령")
+df_channel = load_sheet("channel")
+df_age     = load_sheet("age")
 
 # 데이터 파싱
 if df_kpi is not None:
